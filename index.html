@@ -5,5 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CALCULATOR</title>
   </head>
-  <body></body>
+  <body>
+    <div class="outer">
+      <class="calculator">
+        <h1>Calculator</h1>
+        <hr>
+        <div class="value">
+          <label for="input">Value </label>
+          <div>
+            <input type="number" class="text" id="value-1" value="0" />
+          </div>
+        </div>
+       
+        <!--Create buttons for the addition,subtraction,multiplication and division operators-->
+
+        <div class="operation-div">
+          <button class="operation" id="clear">C</button>
+        </div>
+        <div class="operation-div">
+          <button class="operation" id="addition">+</button>
+          <button class="operation" id="subtraction">-</button>
+        </div>
+        <div class="operation-div">
+          <button class="operation" id="multiplication">x</button>
+          <button class="operation" id="division">/</button>
+        </div>
+    </hr>
+        <div class="value">
+          <label for="text">Result </label>
+          <div class="result">
+            <p id="result">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
